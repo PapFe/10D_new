@@ -13,3 +13,4 @@ for i in lista_magassag:
         legnagyobb = i
 
 print(legnagyobb)
+
