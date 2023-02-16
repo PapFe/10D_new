@@ -6,7 +6,24 @@ def harommal_oszthatok(lista):
 
     return db
 
-kutya = [1,2,3,4,5,6,7,8,9,12,16]
+def is_negative(szam):
+    if szam < 0:
+        return True
+    else:
+        return False
 
-db = harommal_oszthatok(kutya)
+
+
+#kutya = [1,2,3,4,5,6,7,8,9,12,16]
+#db = harommal_oszthatok(kutya)
+#print(db)
+egyedi_lista = []
+while True:
+    megadott_szam = int(input())
+    if is_negative(megadott_szam):
+        break
+    else:
+        egyedi_lista.append(megadott_szam)
+
+db = harommal_oszthatok(egyedi_lista)
 print(db)
