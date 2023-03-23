@@ -1,0 +1,14 @@
+Szerző: Kis géza
+	 könyv: Könyvem
+		Kiadási év: 2001
+		Műfaj: Vicces
+		Leírás: NAgyon vicces
+	 könyv: Ábránd
+		Kiadási év: 2005
+		Műfaj: Költészet
+		Leírás: Egész jó költemény gyűjtemény eménk színeivel
+Szerző: Nagy Ákos
+	 könyv: Meseház
+		Kiadási év: 2015
+		Műfaj: Gyerek
+		Leírás: Mi van a mesében mi van a házamban csigabiga lakik a szobában
