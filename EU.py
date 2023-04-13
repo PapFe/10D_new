@@ -6,8 +6,8 @@ def rendezes(lista):
             if lista[i][1] > lista[j][1]:
                 lista[i],lista[j] = lista[j],lista[i]
 
-EU = []
-EU2 = []
+EU = [] #[[Ausztria,1995],[],[]]
+EU2 = [] # [{"Ország név":Ausztria,"Belépési Év":1995},{}]
 dic = {}
 with open("EU.txt","r", encoding="utf-8") as file:
     for sor in file:
